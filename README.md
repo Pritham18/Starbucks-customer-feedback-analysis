@@ -1,7 +1,7 @@
 # Starbucks-customer-feedback-analysis
   Starbucks Survey Insights – Customer Feedback Analysis
 STAT 515 Final Project – Team 14
-📘 Project Overview
+Project Overview
 This project explores customer preferences and satisfaction patterns based on survey responses collected from Starbucks customers in Malaysia. Using statistical modeling and data analysis techniques, we investigate what factors influence customer loyalty, dining preferences, and the likelihood of using Starbucks for social or business meetings.
 
 Our study combines descriptive analytics, logistic regression, and ordinal regression to derive actionable insights from survey data.
@@ -30,7 +30,7 @@ Likelihood to revisit Starbucks
 
 Preference for meetings/hangouts
 
-🎯 Research Questions
+Research Questions
 How do students and employed individuals differ in their preference for Starbucks?
 
 Does proximity to a Starbucks outlet influence a customer’s dining choice (dine-in, takeaway, drive-through)?
@@ -39,7 +39,7 @@ What are the key predictors of customer loyalty based on ambiance, price, Wi-Fi,
 
 Does the quality of service affect a customer’s likelihood of using Starbucks for meetings or hangouts?
 
-🧰 Tools & Technologies Used
+Tools & Technologies Used
 Tool	Purpose
 R	Statistical analysis, regression modeling, data visualization
 Excel	Data cleaning, column renaming, filtering duplicates
@@ -84,7 +84,7 @@ Cook’s Distance highlighted high-influence outliers affecting model reliabilit
 Recommendation:
 Future models should consider transforming predictors, applying regularization, or using ensemble models to better capture real-world complexity.
 
-✅ Key Takeaways
+Key Takeaways
 Occupation matters: Employed customers show stronger Starbucks loyalty than students or self-employed individuals.
 
 Location influences behavior: People near stores prefer quick takeout; those further out are more likely to dine in.
@@ -93,7 +93,7 @@ Service quality is essential: Strong predictor for using Starbucks as a social/b
 
 Loyalty drivers are nuanced: Good ambiance and fair pricing build loyalty, but overemphasis on service/Wi-Fi may lead to dissatisfaction.
 
-📂 Repository Structure
+Repository Structure
 bash
 Copy
 Edit
@@ -102,11 +102,11 @@ Edit
 ├── TEAM14_PPT.pptx                    # Presentation slides summarizing the analysis
 ├── STAT515-Group14-FinalProject.pdf   # Final project report
 ├── README.md                          # Project documentation (this file)
-📚 References
+References
 Prasertcbs. (n.d.). Starbucks Satisfactory Survey Dataset. GitHub Repository:
 https://github.com/prasertcbs/basic-dataset/blob/master/Starbucks%20satisfactory%20survey.csv
 
-📌 How to Reproduce This Project
+How to Reproduce This Project
 Download the dataset from the link above or use the provided cleaned CSV.
 
 Use RStudio or any R environment.
